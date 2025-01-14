@@ -1,10 +1,24 @@
 {
   "item.yuyufirst.bismuth": "Bismuth",
-  "item.yuyufirst.chisel": "Bismuth Chisel",
   "item.yuyufirst.raw_bismuth": "Raw Bismuth",
-  "block.yuyufirst.bismuth_block": "Bismuth Block",
+  "item.yuyufirst.chisel": "Bismuth Chisel",
+
   "block.yuyufirst.bismuth_ore": "Bismuth Ore",
   "block.yuyufirst.bismuth_deepslate_ore": "Deepslate Bismuth Ore",
+  "block.yuyufirst.bismuth_block": "Bismuth Block",
+  "block.yuyufirst.magic_block": "Magic Block",
+
+  "item.yuyufirst.radish": "Radish",
+  "item.yuyufirst.frostfire_ice": "Frostfire Ice",
+  "item.yuyufirst.starlight_ashes": "Starlight Ashes",
+
   "creativetab.yuyufirst.bismuth_items": "Bismuth Items",
-  "creativetab.yuyufirst.bismuth_blocks": "Bismuth Blocks"
+  "creativetab.yuyufirst.bismuth_blocks": "Bismuth Blocks",
+  "creativetab.yuyufirst.misc": "Miscellaneous",
+
+
+  "tooltip.yuyufirst.magic_block": "This block is §9MAGICAL!!!!§r",
+  "tooltip.yuyufirst.chisel.hover": "Press §eSHIFT§r to see more information",
+  "tooltip.yuyufirst.chisel.shift_down": "This item can chisel item into something different... maybe grass?",
+  "tooltip.yuyufirst.radish": "I don't like it, but it gives you buff"
 }

@@ -32,6 +32,17 @@ public class ModCreativeModeTabs
                         output.accept(ModBlocks.BISMUTH_BLOCK);
                         output.accept(ModBlocks.BISMUTH_ORE);
                         output.accept(ModBlocks.BISMUTH_DEEPSLATE_ORE);
+                        output.accept(ModBlocks.MAGIC_BLOCK);
+                    }).build());
+
+    public static  final Supplier<CreativeModeTab> MISC_TAB = CREATIVE_MODE_TAB.register("misc_tab",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.RADISH.get()))
+                    .withTabsBefore(ResourceLocation.fromNamespaceAndPath(FirstMod.MOD_ID, "bismuth_items_tab"))
+                    .title(Component.translatable("creativetab.yuyufirst.misc"))
+                    .displayItems((itemDisplayParameters, output) -> {
+                        output.accept(ModItems.RADISH);
+                        output.accept(ModItems.FROSTFIRE_ICE);
+                        output.accept(ModItems.STARLIGHT_ASHES);
                     }).build());
 
     public static void register(IEventBus eventBus)

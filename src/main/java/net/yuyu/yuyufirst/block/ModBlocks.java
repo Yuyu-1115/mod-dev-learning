@@ -11,6 +11,7 @@ import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.yuyu.yuyufirst.FirstMod;
+import net.yuyu.yuyufirst.block.custom.MagicBlock;
 import net.yuyu.yuyufirst.item.ModItems;
 
 import java.util.function.Supplier;
@@ -36,6 +37,12 @@ public class ModBlocks
                     .destroyTime(2f)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.STONE)));
+
+    public static final DeferredBlock<Block> MAGIC_BLOCK = registerBlock("magic_block",
+            () -> new MagicBlock(BlockBehaviour.Properties.of()
+                    .strength(2f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.AMETHYST)));
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block)
     {
